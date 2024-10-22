@@ -134,7 +134,7 @@ This repository is for educational purposes, but if you have suggestions or impr
 
 For any questions or contributions, feel free to contact:
 
-- **Name**: [Ishan Dwivedi]
+- **Name**: Ishan Dwivedi
 - **Email**: [ishandwivedi1210@gmail.com]
 - **GitHub**: [https://github.com/Ishan1012](https://github.com/Ishan1012)
 
