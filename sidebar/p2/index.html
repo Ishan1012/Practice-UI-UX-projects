@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXJJREFUSEu1lYExBEEQRd9FQAaIABEgAkSADIiADBABIkAEiAARIAIyoJ7qrZobM6eXuq7a2rqbnv7d/3f3TpizTeYcn7EAT8AnsJ5NbAzAIvAegdP3eo47wD3wUWR6AhzH7yPgrDgTfAO4rStrARj8GngFDOp7P57y/iXgsxx+vneBm9KpBWA2Bl3I8hx+b8BaVXVXZDO+GAlwEBVNXZulgTS17Coo8UwdtsNpK3RLAcjtXgdgJSj0WEoew09gK58JoFBmVHZIfacHoN8hcN4T2SFaraJZtnZX/G+X2KY2wymw2ajUWN/DWGqQBcho/xz0/egiKXIOzOwvVg9gt02lYeiOGugher0+l3s1SHXRMM2tKqTVSl8aerleUgCzBm3YUSZRWnrQ7A6z8z3GXC92TrkgmxoM9LhbymVXD56cq5WJODdL2WVn1q11rYBDd7XWtfMwtUnrOfiNjlLYf39wemAOo+YOSlk6k1S0htPcAb4A2BBGGUt/C6QAAAAASUVORK5CYII="/>
+                <div class="logo_name">Ghost Drive</div>
+            </div>
+            <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAExJREFUSEtjZKAxYKSx+QyjFhAM4QEJov8EnYVfAYqjsfmA5hZQ6AFU7QMSBzT3Ac3jgOYW0DyIhr4FNI8Dmlsw9ONg1AcoIUDz0hQAbegGGXzv/l0AAAAASUVORK5CYII=" id="btn"/>
+        </div>
+        <ul class="nav_list">
+            <li id="Searchbar">
+                <img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAUJJREFUSEu9le0xBEEURc9GQAhEgAzIgAjIABmQARmQgQwQARnYEIiAOlWv1avR3TO7NWOq9sdOd9/z+r6PWbHws1pYnx5gD7gEjoHDCOQdeAHugfWU4FqAuxDvabjnegxSAxjlQRx8BBTynY83uQLO042OepAhoET+FdYU4aGGIK3aCbuEVp8M0POP2GVULfEiJOQt/uy3cpIBJXoT2IxoEOZD2NU8kwHF+ynRD2/h2WouMuA7Tm3aG91zcwEsit1aluey6DWq7g/jX5O8bZlqjyVbHR2tRvsETjq9oOBz+H4L3ExptLInjwrr3BrPo8IBeJEEXTMYg+rmIC+ODTttcc9pzK0mZGxc29GOa4efogr5U1zPLU1nkutVyKZNVXOhC5kDIDRDzoCnEslcgALRzl9xX84JGP0e9D5MW68tfoMfCXxMGRHr0pcAAAAASUVORK5CYII="/>
+                <input type="text" placeholder="Search...">
+                <!-- <div class="tooltip">Dashboard</div> -->
+            </li>
+
+            <li>
+                <a href="#">
+                    <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAIBJREFUSEvtVUEOgDAI616m/lxfNmMixrBgids4sePoaCiUFUw+ZXJ+hBPsABajqiu23TEvrqmgEsmkYi/OJNDSSUJNwHBJwBWwNLR63d3kr/E7AKyOMX3j4o02fHPoHngd6sWlk//7gO0YvZtkOJp7lsh62E2QTn4UCP+Th6+KE3LlOBnu4XThAAAAAElFTkSuQmCC" />
+                    <div class="links_name">Dashboard</div>
+                </a>
+                <!-- <div class="tooltip">Dashboard</div> -->
+            </li>
+
+            <li>
+                <a href="#">
+                    <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAUBJREFUSEvVlG1RQzEQRU8VAA4qgSoAHBQFgIOiAFAADhgc1AFFAUioA1oF7Vxmlwl5SfZNIT/Ir3aSt+fu3Y8Jnc+kc3zGAs6BO+DUBH0AD8AqEjgGcG/BS7EE0X31RAApfwW2wAJYAhvgGngCjoCLViYRQBacAZcWPFUqyDPwBkhI8UQAqZXK0rtj4NMyOukJkH2CHZRBd4u8yF5Y+e2/H035r4qstLu2qfuqTARKB03//2TQomFt3rfaVJ1xBcxNed4pqoVWhobvxWozgNUAskRDNB0pfw3clCwrAbxzFFtdI6+lVIrTo4xUE91r2nUGHZUD9NG7KQ8XWULzTlMms1RMDtBCU38390vFNh/KW1uEX89ygD9qDk8F4Nb+EJcDfLlpeeWeR/UuLr8csLMo0ZatwQbfHxooyub7/v8D9gzNRRmX6M9FAAAAAElFTkSuQmCC" />
+                    <div class="links_name">Users</div>
+                </a>
+                <!-- <div class="tooltip">Dashboard</div> -->
+            </li>
+
+            <li>
+                <a href="#">
+                    <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAOZJREFUSEvtle0RwUAQhp9UQAeohBKUQAdK0AEd0IIOdIIOqIB5My5zidzGztz55f5md5/ddz9SUfhVheNjARbAAZg6k7gCa+AsPwsgw4kzeDCX72wI4I2tSo/A/O1YJ5+7B4JcUoAsmgPPFCCL5hagRXY0oOuXrOAPCBP5E4lu4QLEe5CrB5rGVd+pyAVoDWCJCpKAOzDqzH9IYGjLG827+xNXoCA6VvEF1UXcAUtj8RS80dwCxN9CP1TVGHgAe2Dr2PDaNHVNA0A2J2ADaDrczwKYpX9LSgEkhVuOPmjuH84HozjgBdJKOBlNP3byAAAAAElFTkSuQmCC" />
+                    <div class="links_name">Messages</div>
+                </a>
+                <!-- <div class="tooltip">Dashboard</div> -->
+            </li>
+
+            <li>
+                <a href="#">
+                    <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZpJREFUSEu1lY0xBEEQhb+LgAwQASJABkSACBABGSACRIAIEAEiQAYyoL6qadU3Nze7p+q6amt/pue97jfdvROWbJMl4zOG4AjYAbbKZUxv5XoAHntB9gj2gUtgfSDLT+AMkGzG5hFcASfF+wu4KBG/lm/bwC5gdpvlm3skmrIWQQZ3g+9hP+Uh7zPTW2AFuAZOM0NNoPN9ilKts7UIXF8FlEqSgyxXTaDTWkk1R97LINYiODE24mMmUM8bQM3nHey8DALPjD2TvywygToedqIXZIhA/a28u1IAU30Q7FZIrf0YifSxV6w094szRTAUXc6gVfLNCs0SjSGIIvgXwRiJbK6ngm6lSJgtJHqPsbLoIQsWxfAM7FUE0aTNQ27WcUOL3FTHhTDcQsJmmeo01GgBFD3zXZrKu/PqvO6jRUdFTkiJHOPK4bNNqnVHhQ552Nk4DrCW2e0f1cLgsAv/TKJsvr+kBrSaHAnK4ploM+B1o9VReugCO/x65uwy04V+OBlQIi9rPH4u1rl9I2gTOADG/JMHEugvL53gF0g/XxmXr1++AAAAAElFTkSuQmCC" />
+                    <div class="links_name">Analytics</div>
+                </a>
+                <!-- <div class="tooltip">Dashboard</div> -->
+            </li>
+
+            <li>
+                <a href="#">
+                    <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAJRJREFUSEtjZKAxYKSx+Qx0tcCBgYFhPgMDgwIWX11gYGBwZGBg+ECqj5F98ICBgUEejwFkWYJswX9SXYdDPcihiQwMDAdA8rSwAGQuyBJFXBZQGvGwkACbg80HoxaMBhHB3DIaRCM5iEBlPT/BACBOwUNYvYJc7oAqnAUE6gRijAcZnoCtuCZGM8lqKC05CVpIcwsArNkoGRF77WgAAAAASUVORK5CYII=" />
+                    <div class="links_name">File Manager</div>
+                </a>
+                <!-- <div class="tooltip">Dashboard</div> -->
+            </li>
+
+            <li>
+                <a href="#">
+                    <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARJJREFUSEvd1M8xREEQBvDfRoAMiAARCAER4MqBEIiAC1dEgAyEQARkgAioT3lbr3hvZ97WbtWWPs709Penu2dkzjGac33/C+BzhnY9YTP12hbNEuADy78BGgEXOMYt9geqOsF5+21Xk1fxgnesDAR4xBYOcNOnIOfxcL2dWAEUS95+8kIsBHvHtJH6gJ2K4klJ3h2esdG86duDTjYFoFiyhzOclgByf4/tSvbttIxnLP6OSZucCboeAJDRzASO2ZcAcp9GLWENrwPAxqmlv6jxNXbtzgMgOxE/o6Im/hAuKWjGL2ObBSrFVAClohPvaxSkwCUOcYWjVsW+8+omN4ntn7bvB+4kuzAKpu5DrYLFBfgCoYYtGZGfX0sAAAAASUVORK5CYII=" />
+                    <div class="links_name">Order</div>
+                </a>
+                <!-- <div class="tooltip">Dashboard</div> -->
+            </li>
+
+            <li>
+                <a href="#">
+                    <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAATpJREFUSEvFleFRwzAMhb9OQEeACYAJChuwAXQCGIVOUNiADYANYAIYASYo93JSTnWd2PFdiv+ksaL39J5kd8HMazEzPv9GcAPcAhem8BvYAC/2rvg9cGrvH8BziPfGpAqWwBYQQG692ebVQFwFrIEfj6cEquQc+AUegAj4CJxYosf1vZaUelx7lzmCO6teyZLeV2EfS10kzMVlpYqQiiflRQVKXsVgw4R5ke9AZ2Mk2BngGaBKWpaUf1lih31Ugtktcv/UPNmUNrFkmYZA9uiZbbIAfEz1vJ5AItBXG9fPcEAPrgofRZ2FWpIUXNMzeNCkYgrJKHg6RdHjGpIi+BhBSUkVeIlgiET7saF7nqejVvN/kNrll5umZRS8RoEXFEm0VwU+hSDapd/FynPXdemkNsVretAEfDQFf3ZDVxl/VBnpAAAAAElFTkSuQmCC" />
+                    <div class="links_name">Saved</div>
+                </a>
+                <!-- <div class="tooltip">Dashboard</div> -->
+            </li>
+
+            <li>
+                <a href="#">
+                    <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAb1JREFUSEu1leE1BEEQhOsiQATIgAgQASJABIgAESACRIAIEAEZIAMi4H33urw2t7M7997e/NrbuamurqqenWjBa7JgfLUW2JZ0I2ktCH1IOpL0PESwtQCAqwUY79bHKADr9wAyoZ/4TQEKVVdXB+eStuLgl6STOP0taTmeeb8Uz1fxHiJIdpGrlQUOQ+uS0Z0kCpstYPw+6KCON7d+nwvA7jWMhAUgmLsn6a2iwYakh2BO8bMgsSmJLv+lCLAnSS8BnDEpdikJQBYFTzv0RyLk3XHCcgcwvU+6AsACnM6svwvDEKaWDS+OY3M/OpuZg+wBh2GKBLvRGfssNIbpY0jo7tmremBmjqC7c2JyJB3dPAvluSleV0znKfCZprupAJnHTFYpEQbSPotrA1nmkiibfJ0GDDnwwoNlKRk8UtVsso2CKTErY0pKckzptrwmemNKDDkAU6bUg0bk+gaNaAPMWc7hC0RmBg3GtauCWDLd+apgah3b3O1gTGkdPwCDhYeH55VAypcdftE9HTMzSPm3Wr4Ho1/Xhb/Tn5mx9/MMdJ2pDlrXn0kYPvirBjj6j/bJrDIc2mjxYAijd/8X17lwGX/yQpcAAAAASUVORK5CYII=" />
+                    <div class="links_name">Settings</div>
+                </a>
+                <!-- <div class="tooltip">Dashboard</div> -->
+            </li>
+        </ul>
+        <div class="profile_content">
+            <div class="profile">
+                <div class="profile_details">
+                    <!-- <img src="" alt=""> -->
+                    <div class="name">Ishan Dwivedi</div>
+                    <div class="job">Student</div>
+                </div>
+            </div>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAUxJREFUSEvVleExBEEQhb+LgEyOCBABIkAGREAIlwGXAREgAi4CQiAC6rvquZqa29qZobaK/jM/tqdf9+s3b2dMHLOJ6/NnAA6BA8BzL6Z+BZ6A5zgHyahNsAvcAicVKu+BC+CjzBsDsPg7sAN8AgvAQnZuOInAl5Fj7mn2fZ1Um+A8aLHIVncBZCOCn0XOUQ5SA+gR2V2AuBdBqhN4wQlaI6dUAIEGKTLxMTjunfAGuAaWqbmygIuzuCAtOyqn8/5L7GC/LCAdSrI3yia/8ubyj5MDJG27HLX/G4pW6cUPLVH+BZk3vJOSzuqS8ws/kelbCGRUpr1LTvnayHGYn6bYxLGL10WvKlaRDFHPsnjyq1Evyl+mPqTfPBRmZ8f6lLlbxVtU4sOxsFOMhf8EgTadt1KU8hxbugRUXYZStKBiWPvOUPR6TbcA/j/ANxEAQBnpQIQiAAAAAElFTkSuQmCC"
+                id="log_out" />
+        </div>
+    </div>
+</body>
+
+</html>
