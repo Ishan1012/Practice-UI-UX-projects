@@ -27,9 +27,7 @@ Each project is a small standalone piece aimed at practicing a specific frontend
 - **Description**: This project demonstrates a 3D Plane flight animation using pure CSS and JS. The animation utilizes CSS transformations, keyframes, and 3D effects to create a flying airplane that is integrated by JS.
 - **Technologies**: HTML, CSS, JS
 
-![Project Screenshot](_screenshots/Screenshot%202024-10-23%20012548.png)
-
-![Project Screenshot](_screenshots/Screenshot%202024-10-23%20012539.png)
+![Project Screenshot](_screenshots/ScreenRecording2024-10-23183012-ezgif.com-video-to-gif-converter.gif)
 
 ### 2. Infinite Police Chase
 
@@ -37,7 +35,7 @@ Each project is a small standalone piece aimed at practicing a specific frontend
 - **Description**: This project demonstrates a 3D Police Chase animation using pure CSS and JS. The animation utilizes CSS transformations, keyframes, and 3D effects to create a police pursuit that is integrated by JS.
 - **Technologies**: HTML, CSS, JS
 
-![Project Screenshot](_screenshots/Screenshot%202024-10-23%20013131.png)
+![Project Screenshot](_screenshots/ScreenRecording2024-10-23183556-ezgif.com-video-to-gif-converter.gif)
 
 ### 3. Card Hover Animations
 
@@ -45,7 +43,7 @@ Each project is a small standalone piece aimed at practicing a specific frontend
 - **Description**: This project demonstrates many hover animations like a Card hover effect using pure CSS. The animation utilizes CSS transformations, keyframes, and 3D effects to create a responsive stack of cards.
 - **Technologies**: HTML, CSS
 
-![Project Screenshot](_screenshots/Screenshot%202024-10-23%20013653.png)
+![Project Screenshot](_screenshots/ScreenRecording2024-10-23183849-ezgif.com-video-to-gif-converter.gif)
 
 ### 4. Loader Animation 3D
 
@@ -57,7 +55,7 @@ Each project is a small standalone piece aimed at practicing a specific frontend
   - Smooth animation using `@keyframes` and `animation-delay`
   - Radial gradient background with central loader animation
 
-![Project Screenshot](_screenshots/Screenshot%202024-10-23%20012805.png)
+![Project Screenshot](_screenshots/ScreenRecording2024-10-23183651-ezgif.com-video-to-gif-converter.gif)
 
 ### 5. Background Animations
 
@@ -65,13 +63,15 @@ Each project is a small standalone piece aimed at practicing a specific frontend
 - **Description**: This project demonstrates many hover animations like a Card hover effect using pure CSS. The animation utilizes CSS transformations, keyframes, and 3D effects to create a responsive stack of cards.
 - **Technologies**: HTML, CSS
 
-![Project Screenshot](_screenshots/Screenshot%202024-10-23%20083029.png)
+![Project Screenshot](_screenshots/ScreenRecording2024-10-23184941-ezgif.com-video-to-gif-converter.gif)
 
-![Project Screenshot](_screenshots/Screenshot%202024-10-23%20013955.png)
+![Project Screenshot](_screenshots/ScreenRecording2024-10-23185145-ezgif.com-video-to-gif-converter.gif)
 
-![Project Screenshot](_screenshots/Screenshot%202024-10-23%20014031.png)
+![Project Screenshot](_screenshots/ScreenRecording2024-10-23184020-ezgif.com-video-to-gif-converter.gif)
 
-![Project Screenshot](_screenshots/Screenshot%202024-10-23%20014100.png)
+![Project Screenshot](_screenshots/ScreenRecording2024-10-23184708-ezgif.com-video-to-gif-converter.gif)
+
+![Project Screenshot](_screenshots/ScreenRecording2024-10-23184828-ezgif.com-video-to-gif-converter.gif)
 
 ### 6. Hover Effects
 
@@ -79,13 +79,9 @@ Each project is a small standalone piece aimed at practicing a specific frontend
 - **Description**: This project demonstrates many hover effects like a icon hover effect using pure CSS and JS. The animation utilizes CSS transformations, keyframes, and 3D effects to create a responsive icon hover effect.
 - **Technologies**: HTML, CSS, JS
 
-![Project Screenshot](_screenshots/Screenshot%202024-10-23%20014538.png)
+![Project Screenshot](_screenshots/ScreenRecording2024-10-23185405-ezgif.com-video-to-gif-converter.gif)
 
-![Project Screenshot](_screenshots/Screenshot%202024-10-23%20014615.png)
-
-![Project Screenshot](_screenshots/Screenshot%202024-10-23%20014946.png)
-
-![Project Screenshot](_screenshots/Screenshot%202024-10-23%20015206.png)
+![Project Screenshot](_screenshots/ScreenRecording2024-10-23185249-ezgif.com-video-to-gif-converter.gif)
 
 ### 7. Timeline
 
@@ -101,7 +97,7 @@ Each project is a small standalone piece aimed at practicing a specific frontend
 - **Description**: This project demonstrates a clone of Windows 11 using CSS and JS. The animation utilizes CSS transformations, keyframes, and 3D effects to create a responsive Windows 11 clone.
 - **Technologies**: HTML, CSS, JS, Anime JS
 
-![Project Screenshot](_screenshots/Screenshot%202024-10-23%20020607.png)
+![Project Screenshot](_screenshots/ScreenRecording2024-10-23185726-ezgif.com-video-to-gif-converter.gif)
 
 ## How to View
 
