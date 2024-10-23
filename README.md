@@ -39,7 +39,7 @@ Each project is a small standalone piece aimed at practicing a specific frontend
 
 ![Project Screenshot](_screenshots/Screenshot%202024-10-23%20013131.png)
 
-### 3. Background Animations
+### 3. Card Hover Animations
 
 - **Files**: `index.html`, `style.css`
 - **Description**: This project demonstrates many hover animations like a Card hover effect using pure CSS. The animation utilizes CSS transformations, keyframes, and 3D effects to create a responsive stack of cards.
@@ -65,7 +65,7 @@ Each project is a small standalone piece aimed at practicing a specific frontend
 - **Description**: This project demonstrates many hover animations like a Card hover effect using pure CSS. The animation utilizes CSS transformations, keyframes, and 3D effects to create a responsive stack of cards.
 - **Technologies**: HTML, CSS
 
-![Project Screenshot](_screenshots/Screenshot%202024-10-23%20013653.png)
+![Project Screenshot](_screenshots/Screenshot%202024-10-23%20083029.png)
 
 ![Project Screenshot](_screenshots/Screenshot%202024-10-23%20013955.png)
 
