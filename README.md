@@ -35,7 +35,7 @@ Each project is a small standalone piece aimed at practicing a specific frontend
 - **Description**: This project demonstrates a 3D Police Chase animation using pure CSS and JS. The animation utilizes CSS transformations, keyframes, and 3D effects to create a police pursuit that is integrated by JS.
 - **Technologies**: HTML, CSS, JS
 
-![Project Screenshot](_screenshots/ScreenRecording2024-10-23183556-ezgif.com-video-to-gif-converter.gif)
+![Project Screenshot](_screenshots/ScreenRecording2024-10-23193019-ezgif.com-video-to-gif-converter.gif)
 
 ### 3. Card Hover Animations
 
