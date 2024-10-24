@@ -105,7 +105,7 @@ You can view these projects by simply opening the HTML file in any modern web br
 
 1. **Download the repository** or clone it using the command:
    ```bash
-   git clone <repository-url>
+   git clone "https://github.com/Ishan1012/UI-UX-projects"
    ```
 2. Open the `index.html` file of any project (e.g., the Loader Animation 3D) in your browser.
 
